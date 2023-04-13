@@ -1,0 +1,98 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  background: #0B2434;
+}
+
+.black--container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main{
+  background: #F5F5F5;
+  width: 30%;
+  height: 70vh;
+  min-width: 386px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.1rem;
+  border-radius: 1rem;
+ 
+  box-shadow: 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff;
+    
+}
+
+ h1{
+  color: #2B283A;
+}
+
+main h3{
+  margin: 0;
+  text-align: center;
+  font-weight: 400;
+  color: #4A4E74;;
+}
+
+.die{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+  margin-top: 3.8rem;
+  
+}
+.box{
+  width: 50px;
+  height: 50px;
+  /* background-color: #59E391; */
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    /* text-align: center; */
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover{
+  /* background-color: #48b674; */
+  cursor: pointer;
+}
+
+.box h2{
+  margin: 0;
+}
+
+
+button{
+  width: 90px;
+  height: 40px;
+  background: #5035FF;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  font-weight:bold;
+  color: white;
+  margin-top: 50px;
+}
+
+button:hover{
+  background: #3a26bb;
+  cursor: pointer;
+}
+
+.wongame{
+  margin: 0px;
+  position: relative;
+  bottom: -20px;
+}
+
+
